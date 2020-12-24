@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    
+}
+ul li::before {
+    content: "📌";
+}
+
+ul{
+    list-style-position: outside;
+    list-style-type: none;
+    
+}
+li{
+    margin-top: 5%;
+}
+
+/* main div class*/
+.main{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.rel{
+   display: flex;
+}
+
+
+/*nav main class*/
+.nav-main{
+
+    
+    width: 100%;
+    height: 8%;
+    position: fixed;
+
+    display: flex;
+    background-color: #121215;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* nav main list for menu (a-tags)*/
+.nav-list{
+  
+    margin: 2% 20%  0.5% 20%;
+    height: 80%;
+    min-height: 60%;
+    min-width: 60%;
+    background-color: #121215;
+    width: 100%;
+    text-align: center;
+    
+}
+/* element in nav(menu)*/
+.nav-list-element{
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 1% 0.5%  0.5% 0.5%;
+    width: 17%;
+    height: 60%;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px;
+    
+}
+/* a decoration of element*/
+.nav-elem-a{
+    text-decoration: none;
+    color: #121215;
+    
+}
+/* name of ansamble DELETE THIS CUZ IT IS NOT RESASIBLE*/
+.nav-main-name{
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: 37.5%;
+    font-size: 1.6em;
+    font-weight:600;
+}
+
+/* footer-main class*/
+.footer-main{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: auto;
+    background-color: #121215;
+    text-align: center;
+    
+}
+/* footer big div*/
+.footer-main-div-big{
+    background-color: #121215;
+    margin: 3%;
+    height: 100%;
+    width: 94%;
+    
+   
+}
+/* footer div for blocks*/
+.footer-main-div-small{
+    display: inline-block;
+    background-color: #121215;
+    height: 100%;
+    width: 33%;
+    color: white;
+}
+
+
+
+
+
+
+/* left content block*/
+/* main div */
+.content-left-main{
+    left:0; /* Обтекание справа */
+    width: 20%; /* Ширина колонки */
+    margin: 10px 1 10% 0px; /* Значения отступов */
+    background-color: white;
+    
+}
+/*main left content div*/
+.content-left-div{
+    background-color: whitesmoke;
+    height: 80%;
+    width: 80%;
+    margin: 30% 10%  30% 10%;
+    
+    
+}
+
+
+
+/* center content block*/
+/* main div */
+.content-center-main{
+    margin: 10px 0 10% 0; /* Значения отступов */
+    width: 60%;
+    background-color: white;
+}
+/* mian center content div*/
+.content-center-div{
+    background-color: whitesmoke;
+    height: 80%;
+    width: 80%;
+    margin: 10% 10%  10% 10%;
+    text-align: center;
+    
+
+}
+/*main img of ansambel at the main page*/
+.img-main{
+    height: 80%;
+    width: 100%;
+}
+
+
+
+
+
+/* right content block*/
+/* main div */
+.content-right-main{
+    background-color: white;
+    width: 20%;
+    right: 0;
+    margin: 10px 0 10% 1px; /* Значения отступов */
+   
+}
+/*main right content div*/
+.content-right-div{
+    background-color: whitesmoke;
+    height: 80%;
+    width: 80%;
+    margin: 30% 10%  30% 10%;
+    
+
+}
